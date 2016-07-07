@@ -1,0 +1,62 @@
+body {
+  background-color: white;
+}
+
+.wrapper {
+  border: 1px solid #000;
+  margin: 200px;
+  text-align: center;
+  padding: 30px;
+  font: Helvetica, sans-serif;
+  color: darkblue;
+  font-size: 1.25rem;
+  background-color: white;
+}
+
+#title {
+  color: red;
+}
+#title:hover {
+  color: darkblue;
+  cursor: url('img/profile.ico'), default;
+}
+
+#student a:link,
+#student a:visited{
+  text-decoration: none;
+  color: orange;
+}
+
+#balloon a:link,
+#balloon a:visited{
+  text-decoration: none;
+  color: purple;
+}
+
+#gridless a:link,
+#gridless a:visited{
+  text-decoration: none;
+  color: green;
+}
+
+#genome a:link,
+#genome a:visited{
+  text-decoration: none;
+  color: blue;
+}
+
+#build a:link,
+#build a:visited{
+  text-decoration: none;
+  color: indigo;
+}
+
+#student a:hover,
+#balloon a:hover,
+#gridless a:hover,
+#genome a:hover,
+#build a:hover {
+  text-shadow: 2px 2px #E7E2EB;
+  font-size: 1.4rem;
+  text-decoration: none;
+}
