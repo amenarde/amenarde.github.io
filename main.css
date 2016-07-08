@@ -1,62 +1,120 @@
 body {
-  background-color: white;
+  background-image: url('img/bluelines.jpg');
+  background-attachment: fixed;
 }
 
 .wrapper {
-  border: 1px solid #000;
-  margin: 200px;
+  border: 1px solid darkblue;
   text-align: center;
-  padding: 30px;
-  font: Helvetica, sans-serif;
+  padding: 2px;
+  font-family: Helvetica, sans-serif;
   color: darkblue;
-  font-size: 1.25rem;
+  font-size: 2vw;
+  line-height: 2vh;
   background-color: white;
+  position: absolute;
+  right: 14vw; left: 14vw; top: 14vh;
+  width: 70vw;
+  box-shadow: 0.3vw 0.3vw darkblue;
+  /* position: fixed;
+  margin-top: 15vw; margin-left: 15vw; margin-bottom: 15vw; margin-right: 15vw; */
 }
 
-#title {
-  color: red;
+#circle {
+  border: 1px solid;
+  background-color: #FF7387;
+  width: 4vw; height: 4vw; border-radius: 50%;
+  left: 65vw; top: 0vh;
+  position: absolute;
 }
-#title:hover {
-  color: darkblue;
-  cursor: url('img/profile.ico'), default;
+
+#circle:hover {
+  box-shadow: 1vh 1vh #E7E2EB;
+}
+
+#circle:hover ~ #intro {
+  font-family: 'Bungee Shade', Helvetica, sans-serif;
+  font-size: 3vw;
+}
+#circle:hover ~ #balloon {
+  font-family: 'Apple Sans Adjectives', Helvetica, sans-serif;
+  font-size: 2vw;
+}
+#circle:hover ~ #pimg img{
+  display: inline;
+  height: 8vw;;
+  width: 24vw;;
+}
+
+#circle:hover ~ #gimg img{
+  display: inline;
+  height: 6vw;
+  width: 45vw;
+}
+
+#circle:hover ~ #build img{
+  display: inline;
+  align: top;
+  height: 2vw;
+  width: 2vw;
+}
+
+#circle:hover ~ #nucleo {
+  display: inline;
+}
+
+#circle:hover ~ #student{ display: none; }
+#circle:hover ~ #gridless{ display: none; }
+#circle:hover ~ #genome{ display: none; }
+
+#pimg img { display: none; }
+#gimg img { display: none; }
+#nucleo {display: none; color: #00FF98; }
+#build img { display: none; }
+
+#intro {
+  color: #FF7387;
+}
+#intro:hover{
+  /* cursor: url('img/profile.ico'), default; */
 }
 
 #student a:link,
 #student a:visited{
   text-decoration: none;
-  color: orange;
+  color: #0088E8;
 }
 
 #balloon a:link,
 #balloon a:visited{
   text-decoration: none;
-  color: purple;
+  color: #00D8FF;
 }
 
 #gridless a:link,
 #gridless a:visited{
   text-decoration: none;
-  color: green;
+  color: #00E8CC;
 }
 
 #genome a:link,
 #genome a:visited{
   text-decoration: none;
-  color: blue;
+  color: #00FF98;
 }
 
 #build a:link,
 #build a:visited{
   text-decoration: none;
-  color: indigo;
+  color: #FF7387;
 }
 
 #student a:hover,
 #balloon a:hover,
 #gridless a:hover,
 #genome a:hover,
-#build a:hover {
-  text-shadow: 2px 2px #E7E2EB;
-  font-size: 1.4rem;
-  text-decoration: none;
+#build a:hover{
+  text-shadow: 0.1vw 0.1vw #E7E2EB;
+  font-size: 2.2vw;
+  cursor: pointer;
 }
