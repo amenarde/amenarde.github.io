@@ -20,52 +20,69 @@ body {
   margin-top: 15vw; margin-left: 15vw; margin-bottom: 15vw; margin-right: 15vw; */
 }
 
-#circle {
-  border: 1px solid;
-  background-color: #FF7387;
+input[type=checkbox] {
+   position: absolute;
+   top: -9999px;
+   left: -9999px;
+}
+
+label {
+  /* border: 1px solid; */
+  background: #FF7387;
   width: 4vw; height: 4vw; border-radius: 50%;
-  left: 65vw; top: 0vh;
+  left: 65vw; top: 1vh;
   position: absolute;
+  text-align: center;
+  font-size: 1vw;
+  box-shadow: 0.5vh 0.5vh #CC5C6C;
 }
 
-#circle:hover {
-  box-shadow: 1vh 1vh #E7E2EB;
+label:hover {
+  transition-duration: 0.4s;
+  background: #FFABB7;
+  box-shadow: 0.5vh 0.5vh #FF7387;
 }
 
-#circle:hover ~ #intro {
+input[type=checkbox]:checked ~ label{
+  left: calc(65vw + 0.5vh); top: 1.5vh;
+  box-shadow: 0vh 0vh #FF7387;
+}
+
+input[type=checkbox]:checked ~ #intro {
+  transition-duration: 0.4s;
   font-family: 'Bungee Shade', Helvetica, sans-serif;
   font-size: 3vw;
 }
-#circle:hover ~ #balloon {
+input[type=checkbox]:checked ~ #balloon {
   font-family: 'Apple Sans Adjectives', Helvetica, sans-serif;
   font-size: 2vw;
 }
-#circle:hover ~ #pimg img{
+input[type=checkbox]:checked ~ #pimg img{
   display: inline;
   height: 8vw;;
   width: 24vw;;
 }
 
-#circle:hover ~ #gimg img{
+input[type=checkbox]:checked ~ #gimg img{
   display: inline;
   height: 6vw;
   width: 45vw;
 }
 
-#circle:hover ~ #build img{
+input[type=checkbox]:checked ~ #build img{
   display: inline;
   align: top;
   height: 2vw;
   width: 2vw;
 }
 
-#circle:hover ~ #nucleo {
+input[type=checkbox]:checked ~ #nucleo {
   display: inline;
 }
 
-#circle:hover ~ #student{ display: none; }
-#circle:hover ~ #gridless{ display: none; }
-#circle:hover ~ #genome{ display: none; }
+input[type=checkbox]:checked ~ #student{ display: none; }
+input[type=checkbox]:checked ~ #gridless{ display: none; }
+input[type=checkbox]:checked ~ #genome{ display: none; }
 
 #pimg img { display: none; }
 #gimg img { display: none; }
@@ -76,7 +93,7 @@ body {
   color: #FF7387;
 }
 #intro:hover{
-  /* cursor: url('img/profile.ico'), default; */
+  cursor: url('img/profile.ico'), default;
 }
 
 #student a:link,
