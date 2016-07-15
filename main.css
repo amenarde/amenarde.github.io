@@ -26,7 +26,7 @@ body {
   font-family: Helvetica, sans-serif;
   color: #FF7387;
   font-size: 2vw;
-  line-height: calc(3vh + 1vw);
+  line-height: calc(1vh + 2vw);
   background-color: white;
   position: absolute;
   right: 14vw; left: 14vw; top: 48vh;
