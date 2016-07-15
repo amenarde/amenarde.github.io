@@ -25,7 +25,7 @@ body {
   padding: calc(0.5vh + 0.5vw);
   font-family: Helvetica, sans-serif;
   color: #FF7387;
-  font-size: 2vw;
+  font-size: calc(1vh + 1vw);;
   line-height: calc(1vh + 2vw);
   background-color: white;
   position: absolute;
