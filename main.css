@@ -32,7 +32,6 @@ body {
   right: 14vw; left: 14vw; top: 48vh;
   width: 70vw;
   box-shadow: 0.3vw 0.3vw darkblue;
-  text-align: justify;
 }
 
 .student_content img, .balloon_content img, .gridless_content img, .um_content img, .build_content img{
