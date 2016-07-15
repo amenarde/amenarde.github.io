@@ -23,8 +23,16 @@
         $(".build_content").css({'top' : ($(".main_wrapper").height() + $(".main_wrapper").position().top + (($(window).height()/100)*4) + 'px')});
       }
 
-      size_all();  
+      size_all();
       hide_all();
+
+      $(window).resize(function() {
+        size_all();
+      });
+
+      $("#circle").click(function(){
+        size_all();
+      });
 
       $("#student").click(function(){
         $(".student_content").toggle();

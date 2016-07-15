@@ -72,7 +72,6 @@ label[for=circle] {
   box-shadow: 0.5vh 0.5vh #CC5C6C;
 }
 label[for=circle]:hover {
-  transition-duration: 0.2s;
   background: #FFABB7;
   box-shadow: 0.5vh 0.5vh #FF7387;
 }
@@ -81,7 +80,6 @@ label[for=circle]:hover {
   box-shadow: 0vh 0vh #FF7387;
 }
 #circle:checked ~ #intro {
-  transition-duration: 0.4s;
   font-family: 'Bungee Shade', Helvetica, sans-serif;
   font-size: 3vw;
 }
