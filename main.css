@@ -34,9 +34,16 @@ body {
   box-shadow: 0.3vw 0.3vw darkblue;
 }
 
-.student_content img, .balloon_content img, .gridless_content img, .um_content img, .build_content img{
+.student_content img, .balloon_content img, .um_content img, .build_content img{
   height: 12vw;
   width: 16vw;
+  float: left;
+  padding-right: 1vw;
+}
+
+.gridless_content img {
+  width: 14vw;
+  height: 13.2vw;
   float: left;
   padding-right: 1vw;
 }
