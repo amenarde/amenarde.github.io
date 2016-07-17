@@ -48,6 +48,26 @@ body {
   padding-right: 1vw;
 }
 
+.links {
+  font-size: calc(0.75vh + 0.75vw);
+  line-height: calc(1vh + 1vw);
+  color: #FF7387;
+  text-decoration: none;
+  position: absolute;
+  left: 65vw; top: 2vh;
+}
+
+.links a {
+  font-size: calc(0.75vh + 0.75vw);
+  line-height: calc(1vh + 1vw);
+  color: #FF7387;
+  text-decoration: underline;
+}
+
+.links:hover, .links a:hover {
+  text-shadow: 0.1vw 0.1vw #E7E2EB;
+}
+
 #circle {
    position: absolute;
    top: -9999px;

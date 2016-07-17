@@ -5,82 +5,7 @@
 <head>
   <meta charset="UTF-8">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-  <script>
-  $(document).ready(function(){
-      function hide_all() {
-        $(".student_content").hide();
-        $(".balloon_content").hide();
-        $(".gridless_content").hide();
-        $(".um_content").hide();
-        $(".build_content").hide();
-      }
-
-      function size_all() {
-        $(".student_content").css({'top' : ($(".main_wrapper").height() + $(".main_wrapper").position().top + (($(window).height()/100)*7) + 'px')});
-        $(".balloon_content").css({'top' : ($(".main_wrapper").height() + $(".main_wrapper").position().top + (($(window).height()/100)*7) + 'px')});
-        $(".gridless_content").css({'top' : ($(".main_wrapper").height() + $(".main_wrapper").position().top + (($(window).height()/100)*7) + 'px')});
-        $(".um_content").css({'top' : ($(".main_wrapper").height() + $(".main_wrapper").position().top + (($(window).height()/100)*7) + 'px')});
-        $(".build_content").css({'top' : ($(".main_wrapper").height() + $(".main_wrapper").position().top + (($(window).height()/100)*7) + 'px')});
-      }
-
-      size_all();
-      hide_all();
-
-      $(window).resize(function() {
-        size_all();
-      });
-
-      $("#circle").click(function(){
-        size_all();
-      });
-
-      $("#student").click(function(){
-        $(".student_content").toggle();
-        $(".balloon_content").hide();
-        $(".gridless_content").hide();
-        $(".um_content").hide();
-        $(".build_content").hide();
-        size_all();
-      });
-
-    $("#balloon").click(function(){
-      $(".balloon_content").toggle();
-      $(".student_content").hide();
-      $(".gridless_content").hide();
-      $(".um_content").hide();
-      $(".build_content").hide();
-      size_all();
-    });
-
-    $("#gridless").click(function(){
-      $(".gridless_content").toggle();
-      $(".balloon_content").hide();
-      $(".student_content").hide();
-      $(".um_content").hide();
-      $(".build_content").hide();
-      size_all();
-    });
-
-    $("#genome").click(function(){
-      $(".um_content").toggle();
-      $(".balloon_content").hide();
-      $(".gridless_content").hide();
-      $(".student_content").hide();
-      $(".build_content").hide();
-      size_all();
-    });
-
-    $("#build").click(function(){
-      $(".build_content").toggle();
-      $(".balloon_content").hide();
-      $(".gridless_content").hide();
-      $(".um_content").hide();
-      $(".student_content").hide();
-      size_all();
-    });
-
-});
-  </script>
+  <script src="index.js"></script>
   <title>Antonio Menarde</title>
   <link rel="shortcut icon" href="img/favicon.png" />
   <link rel="stylesheet" href="main.css">
@@ -131,6 +56,10 @@
 
   <div class = "build_content">
     I will put hella content here soon <i>just you wait</i>
+  </div>
+
+  <div class = "links">
+    <a href="http://facebook.com/amenarde">facebook</a> | <a href="http://linkedin.com/in/amenarde">linkedin</a> | <a href="http://github.com/amenarde">github</a> | resume
   </div>
 
 
