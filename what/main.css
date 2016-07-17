@@ -1,0 +1,60 @@
+body {
+  font-family: 'Bungee Shade', Helvetica, sans-serif;
+  font-size: calc(5vh + 5vw);
+  background-image: url('../img/bluelines.jpg');
+  background-attachment: fixed;
+}
+
+body img{
+  position: absolute;
+  width: 235px;
+  height: 124px;
+}
+
+#hire a {
+  position: absolute;
+  top: 38vh;
+  left: 28vw;
+  text-decoration: none;
+}
+
+#hire a:hover {
+  transition-duration: 300ms;
+  color: #FF7387;
+  font-size: calc(7vh + 7vw);
+  top: 31vh;
+  left: 21vw;
+  text-decoration: none;
+}
+
+#arrow1 img {
+  top: 15vh;
+  left: 15vw;
+  -ms-transform: rotate(40deg);
+  -webkit-transform: rotate(40deg);
+  transform: rotate(40deg);
+}
+
+#arrow2 img{
+  top: 58vh;
+  left: 15vw;
+  -ms-transform: rotate(315deg);
+  -webkit-transform: rotate(315deg);
+  transform: rotate(315deg);
+}
+
+#arrow3 img{
+  top: 8vh;
+  left: 60vw;
+  -ms-transform: rotate(110deg);
+  -webkit-transform: rotate(110deg);
+  transform: rotate(110deg);
+}
+
+#arrow4 img{
+  top: 60vh;
+  left: 60vw;
+  -ms-transform: rotate(240deg);
+  -webkit-transform: rotate(240deg);
+  transform: rotate(240deg);
+}

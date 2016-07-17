@@ -50,22 +50,24 @@ body {
 
 .links {
   font-size: calc(0.75vh + 0.75vw);
-  line-height: calc(1vh + 1vw);
+  line-height: 2vh;
   color: #FF7387;
   text-decoration: none;
   position: absolute;
-  left: 65vw; top: 2vh;
+  right: 15vw; top: 1vh;
+  min-height: 18px;
 }
 
 .links a {
   font-size: calc(0.75vh + 0.75vw);
   line-height: calc(1vh + 1vw);
   color: #FF7387;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
-.links:hover, .links a:hover {
+.links a:hover {
   text-shadow: 0.1vw 0.1vw #E7E2EB;
+  text-decoration: underline;
 }
 
 #circle {
