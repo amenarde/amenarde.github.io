@@ -11,14 +11,14 @@ body img{
   height: 124px;
 }
 
-#hire a {
+#fire a {
   position: absolute;
   top: 38vh;
   left: 28vw;
   text-decoration: none;
 }
 
-#hire a:hover {
+#fire a:hover {
   transition-duration: 300ms;
   color: #FF7387;
   font-size: calc(7vh + 7vw);
@@ -30,31 +30,31 @@ body img{
 #arrow1 img {
   top: 15vh;
   left: 15vw;
-  -ms-transform: rotate(40deg);
-  -webkit-transform: rotate(40deg);
-  transform: rotate(40deg);
+  -ms-transform: rotate(220deg);
+  -webkit-transform: rotate(220deg);
+  transform: rotate(220deg);
 }
 
 #arrow2 img{
   top: 58vh;
   left: 15vw;
-  -ms-transform: rotate(315deg);
-  -webkit-transform: rotate(315deg);
-  transform: rotate(315deg);
+  -ms-transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+  transform: rotate(135deg);
 }
 
 #arrow3 img{
   top: 8vh;
   left: 60vw;
-  -ms-transform: rotate(110deg);
-  -webkit-transform: rotate(110deg);
-  transform: rotate(110deg);
+  -ms-transform: rotate(290deg);
+  -webkit-transform: rotate(290deg);
+  transform: rotate(290deg);
 }
 
 #arrow4 img{
   top: 60vh;
   left: 60vw;
-  -ms-transform: rotate(240deg);
-  -webkit-transform: rotate(240deg);
-  transform: rotate(240deg);
+  -ms-transform: rotate(60deg);
+  -webkit-transform: rotate(60deg);
+  transform: rotate(60deg);
 }
