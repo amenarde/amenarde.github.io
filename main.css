@@ -1,11 +1,11 @@
 @font-face {
     font-family: "Bungee Shade";
-    src: url(font/BungeeShadeRegular.ttf) format("truetype");
+    src: url("font/BungeeShadeRegular.ttf") format("truetype");
 }
 
 @font-face {
     font-family: "Apple Sans Adjectives";
-    src: url(font/AppleSansAdjectives.ttf) format("truetype");
+    src: url("font/AppleSansAdjectives.ttf") format("truetype");
 }
 
 body {
