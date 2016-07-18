@@ -1,5 +1,10 @@
+@font-face {
+    font-family: "Bungee Shade";
+    src: url(font/BungeeShadeRegular.ttf) format("truetype");
+}
+
 body {
-  font-family: 'Bungee Shade', Helvetica, sans-serif;
+  font-family: "Bungee Shade", Helvetica, sans-serif;
   font-size: calc(5vh + 5vw);
   background-image: url('../img/bluelines.jpg');
   background-attachment: fixed;
@@ -12,6 +17,7 @@ body img{
 }
 
 #fire a {
+  z-index: 1;
   position: absolute;
   top: 38vh;
   left: 28vw;
@@ -19,6 +25,7 @@ body img{
 }
 
 #fire a:hover {
+  z-index: 1;
   transition-duration: 300ms;
   color: #FF7387;
   font-size: calc(7vh + 7vw);
@@ -28,6 +35,7 @@ body img{
 }
 
 #arrow1 img {
+  z-index: -1;
   top: 15vh;
   left: 15vw;
   -ms-transform: rotate(220deg);
@@ -36,6 +44,7 @@ body img{
 }
 
 #arrow2 img{
+  z-index: -1;
   top: 58vh;
   left: 15vw;
   -ms-transform: rotate(135deg);
@@ -44,6 +53,7 @@ body img{
 }
 
 #arrow3 img{
+  z-index: -1;
   top: 8vh;
   left: 60vw;
   -ms-transform: rotate(290deg);
@@ -52,9 +62,30 @@ body img{
 }
 
 #arrow4 img{
+  z-index: -1;
   top: 60vh;
   left: 60vw;
   -ms-transform: rotate(60deg);
   -webkit-transform: rotate(60deg);
   transform: rotate(60deg);
+}
+
+#please {
+  font-size: calc(1.5vh + 1.5vw);
+}
+
+#please a {
+  color: blue;
+  text-decoration: none;
+  position: absolute;
+  top: 60vh;
+  left: 32vw;
+}
+
+#please a:hover {
+  transition-duration: 300ms;
+  color: #FF7387;
+  font-size: calc(2vh + 2vw);
+  left: 27vw;
+  text-decoration: none;
 }

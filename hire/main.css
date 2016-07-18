@@ -1,5 +1,10 @@
+@font-face {
+    font-family: "Bungee Shade";
+    src: url(font/BungeeShadeRegular.ttf) format("truetype");
+}
+
 body {
-  font-family: 'Bungee Shade', Helvetica, sans-serif;
+  font-family: "Bungee Shade", Helvetica, sans-serif;
   font-size: calc(5vh + 5vw);
   background-image: url('../img/bluelines.jpg');
   background-attachment: fixed;
@@ -33,6 +38,7 @@ body img{
 }
 
 #hire a {
+  z-index: 1;
   color: blue;
   position: absolute;
   top: 38vh;
@@ -41,6 +47,7 @@ body img{
 }
 
 #hire a:hover {
+  z-index: 1;
   transition-duration: 300ms;
   color: #FF7387;
   font-size: calc(7vh + 7vw);
@@ -50,6 +57,7 @@ body img{
 }
 
 #arrow1 img {
+  z-index: -1;
   top: 15vh;
   left: 15vw;
   -ms-transform: rotate(40deg);
@@ -58,6 +66,7 @@ body img{
 }
 
 #arrow2 img{
+  z-index: -1;
   top: 58vh;
   left: 15vw;
   -ms-transform: rotate(315deg);
@@ -66,6 +75,7 @@ body img{
 }
 
 #arrow3 img{
+  z-index: -1;
   top: 8vh;
   left: 60vw;
   -ms-transform: rotate(110deg);
@@ -74,6 +84,7 @@ body img{
 }
 
 #arrow4 img{
+  z-index: -1;
   top: 60vh;
   left: 60vw;
   -ms-transform: rotate(240deg);
