@@ -1,6 +1,8 @@
+@import 'https://fonts.googleapis.com/css?family=Bungee|Bungee+Shade';
+
 @font-face {
     font-family: "Bungee Shade";
-    src: url("../font/BungeeShadeRegular.ttf") format("truetype");
+    src: url('../fonts/BungeeShadeRegular.ttf') format("truetype");
 }
 
 body {
