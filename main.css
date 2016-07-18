@@ -117,10 +117,10 @@ label[for=circle]:hover {
   box-shadow: 0vh 0vh #FF7387;
 }
 #circle:checked ~ #intro {
-  font-family: "Bungee Shade", Helvetica, sans-serif;
+  font-family: 'Bungee Shade', Helvetica, sans-serif;
   font-size: 3vw;
 }
-#circle:checked ~ #balloon { font-family: "Apple Sans Adjectives", Helvetica, sans-serif; font-size: 2vw; }
+#circle:checked ~ #balloon { font-family: 'Apple Sans Adjectives', Helvetica, sans-serif; font-size: 2vw; }
 #circle:checked ~ #pimg img { display: inline; height: 6vw; width: 18vw; }
 #circle:checked ~ #gimg img { display: inline; height: 4vw; width: 30vw; }
 #circle:checked ~ #build img { display: inline; align: top; height: 2vw; width: 2vw; }

@@ -1,10 +1,10 @@
 @font-face {
     font-family: "Bungee Shade";
-    src: url(font/BungeeShadeRegular.ttf) format("truetype");
+    src: url(../font/BungeeShadeRegular.ttf) format("truetype");
 }
 
 body {
-  font-family: "Bungee Shade", Helvetica, sans-serif;
+  font-family: 'Bungee Shade', Helvetica, sans-serif;
   font-size: calc(5vh + 5vw);
   background-image: url('../img/bluelines.jpg');
   background-attachment: fixed;
